@@ -18,7 +18,7 @@ function App() {
   return (
     <div className="App">
       <button className="addButton" onClick={handleClickOpen}>
-        {<Add className="addIcon" />} {"Add your own"}
+        {<Add className="addIcon" />} {"Add your own hotel"}
       </button>
 
       {toggle && (
