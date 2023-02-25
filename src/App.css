@@ -133,9 +133,11 @@ textarea{
     background-color: rgb(210, 12, 12);
 }
 .body{
+
   display: flex;
   transition: all 1s ease;
   justify-content: space-around;
+  
 }
 
 .close{
@@ -144,7 +146,7 @@ textarea{
   position: absolute;
   top: 0;
   right: 0;
-  
+
 }
 .scale-up-center {
 	-webkit-animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
